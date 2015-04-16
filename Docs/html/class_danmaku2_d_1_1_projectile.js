@@ -1,0 +1,25 @@
+var class_danmaku2_d_1_1_projectile =
+[
+    [ "Activate", "class_danmaku2_d_1_1_projectile.html#ae8753efaeea05f65094a4875a694a368", null ],
+    [ "AddToGroup", "class_danmaku2_d_1_1_projectile.html#a9a40e7698e4626a11882369b9d268656", null ],
+    [ "CompareTag", "class_danmaku2_d_1_1_projectile.html#a5808e8d020ab2b5ecb3e849d62125cda", null ],
+    [ "Deactivate", "class_danmaku2_d_1_1_projectile.html#a9c9dd3575fbfc59e05ae9ed1c05f8896", null ],
+    [ "DeactivateImmediate", "class_danmaku2_d_1_1_projectile.html#a7f262217a251ebb0a46b092f31d36f60", null ],
+    [ "MatchPrefab", "class_danmaku2_d_1_1_projectile.html#ac564329efa4ef51b43d66e03eff9ba3a", null ],
+    [ "RemoveFromGroup", "class_danmaku2_d_1_1_projectile.html#ab3ae4ffc0da5eca2a5d9bd89a291e4dc", null ],
+    [ "Damage", "class_danmaku2_d_1_1_projectile.html#ab16a3ebb727a38f50223c1be2ecd111d", null ],
+    [ "Position", "class_danmaku2_d_1_1_projectile.html#aab84255a301f0fedbd95b8e45c63ebba", null ],
+    [ "Color", "class_danmaku2_d_1_1_projectile.html#a56bde2e57a33eeee68015a7be51fc825", null ],
+    [ "Controller", "class_danmaku2_d_1_1_projectile.html#a7f627ce8b6a06e33eae112e878b8f94f", null ],
+    [ "Direction", "class_danmaku2_d_1_1_projectile.html#a4fcced862bdecc3879cfbf3da6029054", null ],
+    [ "Field", "class_danmaku2_d_1_1_projectile.html#af427bd3523960c074b4ccd7f4b7399b0", null ],
+    [ "Frames", "class_danmaku2_d_1_1_projectile.html#a2cc891d97c5cc3bfd2579589e5266419", null ],
+    [ "IsActive", "class_danmaku2_d_1_1_projectile.html#a92c6b1cf703f9e064f5efc0907f80379", null ],
+    [ "Layer", "class_danmaku2_d_1_1_projectile.html#a3ec664355c6157b48d60e5e4758674f9", null ],
+    [ "Pool", "class_danmaku2_d_1_1_projectile.html#a4d5303911bcb3f12d4c41a92b0b9f9d8", null ],
+    [ "PositionImmediate", "class_danmaku2_d_1_1_projectile.html#a74aa429adee10ceba99f8df690d9a90b", null ],
+    [ "Rotation", "class_danmaku2_d_1_1_projectile.html#a693e81fdfaa7cfd5371cb7c09c5f0b9c", null ],
+    [ "Sprite", "class_danmaku2_d_1_1_projectile.html#a8ed3ef68989689a9822c390e4d4b24ff", null ],
+    [ "Tag", "class_danmaku2_d_1_1_projectile.html#a121d9cb485fa9e23380cb8c883e46c9c", null ],
+    [ "Time", "class_danmaku2_d_1_1_projectile.html#abe5b08b8964668dd8b5434693947a073", null ]
+];

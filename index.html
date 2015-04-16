@@ -1,0 +1,115 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>DanmakuUnity2D by Rhythmia</title>
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script src="javascripts/main.js"></script>
+    <!--[if lt IE 9]>
+      <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+
+  </head>
+  <body>
+
+      <header>
+        <h1>DanmakuUnity2D</h1>
+        <p>An open source Danmaku development kit for Unity.</p>
+      </header>
+
+      <div id="banner">
+        <span id="logo"></span>
+
+        <a href="https://github.com/Rhythmia/DanmakuUnity2D" class="button fork"><strong>View On GitHub</strong></a>
+        <a href="./Docs/html/index.html" class="button fork"><strong></strong>Scripting Documentation</strong></a>
+        <div class="downloads">
+          <span>Downloads:</span>
+          <ul>
+            <li><a href="https://github.com/Rhythmia/DanmakuUnity2D/zipball/master" class="button">ZIP</a></li>
+            <li><a href="https://github.com/Rhythmia/DanmakuUnity2D/tarball/master" class="button">TAR</a></li>
+          </ul>
+        </div>
+      </div><!-- end banner -->
+
+    <div class="wrapper">
+      <nav>
+        <ul></ul>
+      </nav>
+      <section>
+        <h1>
+<a id="danmakuunity2d" class="anchor" href="#danmakuunity2d" aria-hidden="true"><span class="octicon octicon-link"></span></a>DanmakuUnity2D</h1>
+
+<p>DanmakuUnity2D is a lightweight open source development kit for Unity intended to create 2D Danmaku, or bullet hell, games.</p>
+
+<p>Largely inspired by Touhou and Touhou Danmakufu. Many of the functions mirror that of many available in Danmakufu.</p>
+
+<h1>
+<a id="getting-started" class="anchor" href="#getting-started" aria-hidden="true"><span class="octicon octicon-link"></span></a>Getting Started</h1>
+
+<p>See the <a href="https://github.com/james7132/DanmakuUnity2D/wiki">wiki</a> on a number of tutorials on how to get started.<br>
+See the <a href="http://james7132.github.io/DanmakuUnity2D/Docs/html/annotated.html">script documentation</a> to see a scripting reference.</p>
+
+<h1>
+<a id="dependencies" class="anchor" href="#dependencies" aria-hidden="true"><span class="octicon octicon-link"></span></a>Dependencies</h1>
+
+<p>This development kit relies heavily on <a href="https://github.com/james7132/UnityUtilLib">UnityUtilLib</a>, a utility library.</p>
+
+<p>All releases of DanmakuUnity2D, including the source code releases, come packaged with the version of UnityUtilLib that is used.</p>
+
+<p>It is also being tested with <a href="http://forum.unity3d.com/threads/free-vfw-full-set-of-drawers-savesystem-serialize-interfaces-generics-auto-props-delegates.266165/">Vexe Framework</a> as a way to serialize a number of objects that are not currently easily serialized by Unity.</p>
+
+<h1>
+<a id="installation" class="anchor" href="#installation" aria-hidden="true"><span class="octicon octicon-link"></span></a>Installation</h1>
+
+<p>To get DanmakuUnity2D running in your Unity project, follow these instructions:</p>
+
+<ol>
+<li>Go to the releases page for this repository (<a href="https://github.com/james7132/DanmakuUnity2D/releases">link</a>) and find the appropriate release version (usually this is the latest release that is for your version of Unity).</li>
+<li>Download the attached .unitypackage binary.</li>
+<li>In Unity, open the project you wish to use the development kit with.</li>
+<li>In the menu at the top, click Assets &gt; Import Package &gt; Custom Package.</li>
+<li>Navigate to where you downloaded the unitypackage to and open it.</li>
+<li>It will then prompt you which assets to add. Select all of them, and click Import.</li>
+<li>Restart Unity. (this refreshes Unity, and pulls up all of the Unity Editor extensions created for this dev kit).</li>
+</ol>
+
+<h1>
+<a id="source-code-installationsetup" class="anchor" href="#source-code-installationsetup" aria-hidden="true"><span class="octicon octicon-link"></span></a>Source Code Installation/Setup</h1>
+
+<p>To get the source code up and running, execute the following command in your command line:</p>
+
+<pre><code>git clone --recursive https://github.com/james7132/DanmakuUnity2D.git
+</code></pre>
+
+<p>Note: the "--recursive" parameter is required to successfully clone the right UnityUtilLib version. </p>
+
+<p>For older clones or git versions older than 1.6.5, use the following commands.</p>
+
+<pre><code>git clone https://github.com/james7132/DanmakuUnity2D.git
+cd DanmakuUnity2D
+git submodule update --init --recursive
+</code></pre>
+      </section>
+      <footer>
+        <p>Project maintained by <a href="https://github.com/Rhythmia">Rhythmia</a></p>
+        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://twitter.com/michigangraham">mattgraham</a></small></p>
+      </footer>
+    </div>
+    <!--[if !IE]><script>fixScale(document);</script><![endif]-->
+              <script type="text/javascript">
+            var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+            document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+          </script>
+          <script type="text/javascript">
+            try {
+              var pageTracker = _gat._getTracker("UA-61901276-1");
+            pageTracker._trackPageview();
+            } catch(err) {}
+          </script>
+
+  </body>
+</html>
